@@ -10,7 +10,6 @@ Welcome to SphinxTest's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   includeme
 
 
 
