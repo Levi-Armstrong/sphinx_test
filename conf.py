@@ -53,7 +53,9 @@ project = u'Industrial Training'
 copyright = u'2017, ROS-Industrial'
 
 # Subversioning Settings
+scv_show_banner = True
 scv_banner_greatest_tag = True
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
