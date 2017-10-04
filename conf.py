@@ -103,7 +103,7 @@ html_context = {
     "display_github": True,
     "github_user": "ros-industrial",
     "github_repo": "industrial_training",
-    "github_version": "kinetic-devel/",
+    "github_version": "kinetic/",
     "conf_py_path": "",
     "source_suffix": source_suffix,
     "css_files": ['_static/override.css'],
