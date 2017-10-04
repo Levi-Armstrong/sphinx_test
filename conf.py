@@ -54,7 +54,8 @@ copyright = u'2017, ROS-Industrial'
 
 # Subversioning Settings
 scv_show_banner = True
-scv_banner_greatest_tag = True
+scv_banner_main_ref = 'kinetic'
+#scv_whitelist_branches = ('indigo', 'indigo-devel')
 
 
 # The version info for the project you're documenting, acts as replacement for
