@@ -25,7 +25,6 @@ try:
 except git.exc.InvalidGitRepositoryError:
   current_branch = ''
 
-print current_branch
 
 # -- General configuration ------------------------------------------------
 
