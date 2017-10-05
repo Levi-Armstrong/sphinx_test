@@ -21,6 +21,7 @@ from git import Repo
 curr_path = os.path.abspath('.')
 print curr_path
 repo = Repo(curr_path)
+print repo.bare
 current_branch = repo.active_branch.name
 print current_branch
 
