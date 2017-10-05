@@ -19,8 +19,9 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import pygit2
-current_branch = repo.lookup_reference('HEAD').resolve().head.name
+from git import Repo
+repo = Repo('.')
+current_branch = repo.active_branch.name
 
 # -- General configuration ------------------------------------------------
 
