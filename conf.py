@@ -20,6 +20,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 from git import Repo
+repo = Repo('.')
 current_branch = repo.active_branch.name
 
 
