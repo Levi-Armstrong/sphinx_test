@@ -18,8 +18,11 @@
 #
 import os
 from git import Repo
-repo = Repo(os.path.abspath('.'))
+curr_path = os.path.abspath('.')
+print curr_path
+repo = Repo(curr_path)
 current_branch = repo.active_branch.name
+print current_branch
 
 # -- General configuration ------------------------------------------------
 
