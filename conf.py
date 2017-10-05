@@ -17,10 +17,10 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-from git import Repo
+import git
 curr_path = os.path.abspath('.')
 try:
-  repo = Repo(curr_path)
+  repo = git.Repo(curr_path)
   current_branch = repo.active_branch.name
 except git.exc.InvalidGitRepositoryError:
   current_branch = ''
