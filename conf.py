@@ -19,10 +19,13 @@
 import os
 from git import Repo
 curr_path = os.path.abspath('.')
-print curr_path
-repo = Repo(curr_path)
-print repo.bare
-current_branch = repo.active_branch.name
+current_branch = ''
+try:
+  repo = Repo(curr_path)
+  current_branch = repo.active_branch.name
+except git.exc.InvalidGitRepositoryError:
+  return False
+
 print current_branch
 
 # -- General configuration ------------------------------------------------
